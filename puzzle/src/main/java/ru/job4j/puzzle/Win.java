@@ -24,8 +24,8 @@ public class Win {
 
     public static boolean vertical(int[][]  board, int colum) {
         boolean rsl = true;
-        for (int index = 0; index < board.length; index++) {
-            if (board[index][colum] != 1) {
+        for (int[] index : board) {
+            if (index[colum] != 1) {
                 rsl = false;
                 break;
             }
