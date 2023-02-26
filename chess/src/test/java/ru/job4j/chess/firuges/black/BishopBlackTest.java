@@ -8,7 +8,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class BishopBlackTest {
-
     @Test
     public void whenPositionRight() {
         BishopBlack figure = new BishopBlack(Cell.E2);
